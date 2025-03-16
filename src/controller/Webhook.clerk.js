@@ -1,5 +1,5 @@
 import { Webhook } from "svix";
-import { addUser, deleteUser, updateUser } from "./user.controller.js";
+import { addUser, deleteUser, updateUser } from "./User.controller.js";
 
 const USER_UPDATE = "user.updated";
 const USER_DELETE = "user.deleted";
