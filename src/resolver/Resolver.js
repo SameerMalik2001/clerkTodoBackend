@@ -1,6 +1,5 @@
 import { createTodo, deleteTodo, getAllTodos, getTodoById, updateTodo } from "../controller/Todo.controller.js";
-import { getUserById } from "../controller/user.controller.js";
-
+import { getUserById } from "../controller/User.controller.js";
 
 export const GraphResolver = {
   // Todo : {
